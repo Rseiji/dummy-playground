@@ -1,3 +1,5 @@
+# git diff
+
 **git diff**: diff entre working directory e staging area
 **git diff --staged/--cached**: diff entre staging area (antes de commitar) e a branch atual no último commit
 
@@ -15,3 +17,16 @@ Flags:
 * --stat
 * --name-only
 * --name-status
+
+
+# git show
+
+ex. see what was in last commit
+
+* git show == git show HEAD
+* git show HEAD~1, HEAD~2, ... (tbm mt util!!)
+
+
+# git log
+
+* git log --oneline (mt melhor!!!)
