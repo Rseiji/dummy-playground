@@ -1,0 +1,2 @@
+**git diff**: diff entre working directory e staging area
+**git diff origin/main**: diff entre branch local e versao remota, na nuvem
