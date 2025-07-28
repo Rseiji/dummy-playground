@@ -1,3 +1,17 @@
 **git diff**: diff entre working directory e staging area
-**git diff origin/main**: diff entre branch local e versao remota, na nuvem
 **git diff --staged/--cached**: diff entre staging area (antes de commitar) e a branch atual no último commit
+
+**git diff HEAD**: soma dos dois de cima
+
+**git diff origin/main**: diff entre branch local e versao remota, na nuvem
+
+**git diff <commit 1> <commit 2>**: diff entre os dois commits
+**git diff <branch 1> <branch 2>**: diff entre os duas branches
+
+
+Flags:
+
+* --color
+* --stat
+* --name-only
+* --name-status
