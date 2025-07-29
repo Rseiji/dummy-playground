@@ -35,3 +35,17 @@ ex. see what was in last commit
 # git reset
 
 * git reset --soft HEAD~1 + git commit --amend (obs. se estiver ja no origin, precisa de push --force, senao o que vai prevalecer é um rebase priorizando a origin)
+
+# git switch
+
+* Tomar vergonha na cara e parar de usar o git checkout
+
+# git restore
+
+* git restore <file>: working directory -> reverter oq foi feito
+
+* git restore --staged <file>: staging area -> working directory
+
+* git restore --source=<commit> <file>
+
+* para all, <file> = .
