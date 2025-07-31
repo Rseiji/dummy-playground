@@ -49,3 +49,8 @@ ex. see what was in last commit
 * git restore --source=<commit> <file>
 
 * para all, <file> = .
+
+# git clean
+
+* Só cuidado para usar a flag -n junto. O resto, aprende na hr. Nao me vejo mt usando isso
+
